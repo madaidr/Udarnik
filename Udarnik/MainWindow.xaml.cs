@@ -12,10 +12,11 @@ using System.Text;
 using System.Threading;
 using System.Windows;
 using System.Windows.Forms;
+using MahApps.Metro.Controls;
 
 namespace Udarnik
 {
-    public partial class MainWindow : Window
+    public partial class MainWindow : MetroWindow
     {
         static string[] Scopes = { SheetsService.Scope.SpreadsheetsReadonly };
         static string ApplicationName = "Udarnik";
